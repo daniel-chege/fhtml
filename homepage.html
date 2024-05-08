@@ -5,17 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <nav id="desktop-nav">
         <div class="logo">
-            <img src="images/logo.svg" alt = "Logo">
-                <ul class="nav-links">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#company">Company</a></li>
-                    <li><a href="#careers">Careers</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
+        <img src="images/logo.svg" alt = "Logo">
+            <ul class="nav-links">
+                <li class="nav-links-features"><a href="#">Features
+                    <span class="material-icons dropdown-icon">
+                    </span>
+                </a>
+                    <ul class="dropdown-content">
+                        <li><img src="images/icon-todo.svg">Todo List</li>
+                        <li><img src="images/icon-calendar.svg">Calender</li>
+                        <li><img src="images/icon-reminders.svg">Reminders</li>
+                        <li><img src="images/icon-planning.svg">Planning</li>
+                    </ul>
+                </li>
+                <li class="nav-links-company" ><a href="#company">Company
+                    <span class="material-icons dropdown-icon">
+                    </span>
+                </a>
+                    <ul class="dropdown-content">
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+                </li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
             <span class="reg">
                 <ul>
                     <li><a href="#Login">Login</a>
@@ -23,7 +43,6 @@
                     </li>
                 </ul>
             </span>
-        </div>
     </nav>
     <section id="bodysection">
         <div class="bodyimage">
@@ -34,13 +53,12 @@
             <p class="ptext">Get your team in sync, no matter your location. <br>
             Streamline processes, create team rituals, and watch productivity soar</p>
         </div>
-        <button class="button"><p>Learn more</p></button>
+        <button class="button">Learn more</button>
         <div class="icons">
             <img src="images/client-databiz.svg" alt="Databiz"> 
             <img src="images/client-audiophile.svg" alt="Databiz"> 
             <img src="images/client-meet.svg" alt="Databiz"> 
             <img src="images/client-maker.svg" alt="Databiz"> 
         </div>
-    </section>
-</body>
-</html>
+      </body>
+      </html>
