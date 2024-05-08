@@ -107,6 +107,7 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     background-color:black;
+    color: hsl(0, 0%, 98%);
 }
 
 .icons {
@@ -160,7 +161,7 @@
 .dropdown-icon{
     font-size:20px;
     position:relative;
-    right: =5px;
+    right: 5px;
     transform:rotate(0deg);
     transition: 0.3sec ease-in-out all;
 }
