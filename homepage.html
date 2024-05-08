@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <nav id="desktop-nav">
         <div class="logo">
         <img src="images/logo.svg" alt = "Logo">
             <ul class="nav-links">
-                <li><a href="#">Features</a></li>
-                <li><a href="#company">Company</a></li>
+                <li class="nav-links" features><a href="#">Features
+                    <span class="material-icons dropdown-icon">arrow_drop_down</span>
+                </a>
+                    <ul class="dropdown-content">
+                        <li><img src="images/icon-todo.svg">Todo List</li>
+                        <li><img src="images/icon-calendar.svg">Calender</li>
+                        <li><img src="images/icon-reminders.svg">Reminders</li>
+                        <li><img src="images/icon-planning.svg">Planning</li>
+                    </ul>
+                </li>
+                <li class="nav-links" Company><a href="#company">Company
+                    <span class="material-icons dropdown-icon">arrow_drop_down</span>
+                </a>
+                    <ul class="dropdown-content">
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+                </li>
                 <li><a href="#careers">Careers</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
