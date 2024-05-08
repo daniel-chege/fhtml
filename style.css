@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Epilogue;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+/*TOP SECTION*/
+
+#desktop-nav{
+        padding-top: 0;
+        display: inline;
+    }
+
+.logo{
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.nav-links {
+    display: inline-flex;
+    padding-top: 0;
+    padding-left: 3rem;
+    color: black;
+  }
+.reg{
+  float: right;
+}
+.register{
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 2rem;
+}
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+  }
+  
+  .nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 18px;
+  }
+
+
+/* BODY TEXT*/
+
+#bodysection{
+    margin-top: 5rem;
+    display: block;
+    position: relative;
+    padding-top: 4vh;
+    height: 96vh;    
+}
+
+.bodyimage{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    float: right;
+    padding-top: 0rem;
+}
+
+.bodytext{
+  align-items: center;
+  padding-left: 5rem;
+
+}
+.h1text{
+    font-weight: 700;
+    font-size: 70px;
+    align-self: center;
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+}
+
+.ptext{
+    font-weight: 200;;
+    align-self: center;
+    font-size: medium;
+}
+
+.button{
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color:black;
+}
+
+.icons {
+  display: flex; 
+  justify-content: left;
+  align-items: center; 
+  padding-left: 4rem;
+  padding-top: 5rem;
+}
+
+.icons img {
+  margin: 0 1rem; 
+  size: 10px;
+}
